@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj": {}
+    "D:\\Users\\Ivan\\Politech\\OPD\\OPD-PROJECT\\ProjectX.DAL\\ProjectX.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj": {
+    "D:\\Users\\Ivan\\Politech\\OPD\\OPD-PROJECT\\ProjectX.DAL\\ProjectX.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj",
+        "projectUniqueName": "D:\\Users\\Ivan\\Politech\\OPD\\OPD-PROJECT\\ProjectX.DAL\\ProjectX.DAL.csproj",
         "projectName": "ProjectX.DAL",
-        "projectPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj",
-        "packagesPath": "C:\\Users\\79119\\.nuget\\packages\\",
-        "outputPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\obj\\",
+        "projectPath": "D:\\Users\\Ivan\\Politech\\OPD\\OPD-PROJECT\\ProjectX.DAL\\ProjectX.DAL.csproj",
+        "packagesPath": "C:\\Users\\erosh\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Ivan\\Politech\\OPD\\OPD-PROJECT\\ProjectX.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\79119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
