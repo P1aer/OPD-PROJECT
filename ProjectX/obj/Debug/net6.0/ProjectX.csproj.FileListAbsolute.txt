@@ -17,7 +17,7 @@ D:\Загрузки\Штуки для учебы\С# технологии\Projec
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\ProjectX.RazorAssemblyInfo.cs
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\staticwebassets.build.json
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\staticwebassets.development.json
-D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\scopedcss\bundle\ProjectX.styles.css
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\scopedcss\projectbundle\ProjectX.bundle.scp.css
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX\obj\Debug\net6.0\ProjectX.dll
