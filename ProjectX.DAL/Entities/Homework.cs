@@ -8,14 +8,15 @@ namespace ProjectX.DAL.Entities
 {
     internal class Homework
     {
-        public int HomeworkID { get; set; }
+        public int ID { get; set; }
 
-        public short? Grade { get; set; }
+        public ushort? Grade { get; set; }
 
-        public int StudentStudentID { get; set; }
+        public string Task { get; set; }
+        public int StudentID { get; set; }
         public Student Student { get; set; }
 
-        public int LectureLectureID { get; set; }
+        public int LectureID { get; set; }
         public Lecture Lecture { get; set; }
     }
 }

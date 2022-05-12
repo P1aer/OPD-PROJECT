@@ -8,11 +8,14 @@ namespace ProjectX.DAL.Entities
 {
     internal class Lecture
     {
-        public int LectureID { get; set; }
+        public int ID { get; set; }
 
-        public int TeacherTeacherID { get; set; }
+        public int TeacherID { get; set; }
         public Teacher Teacher { get; set; }
-
         public DateTime Date { get; set; }
+        public Dictionary<Student, bool> attendance { get; set; }
+
+        public List<Homework> homeworks { get; set; }
+   
     }
 }
