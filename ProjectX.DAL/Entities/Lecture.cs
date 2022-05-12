@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProjectX.DAL.Entities
 {
-    internal class Lecture
+    public class Lecture
     {
         public int ID { get; set; }
 
         public int TeacherID { get; set; }
         public Teacher Teacher { get; set; }
         public DateTime Date { get; set; }
-        public Dictionary<Student, bool> attendance { get; set; }
+/*        public Dictionary<Student, bool> attendance { get; set; }
 
-        public List<Homework> homeworks { get; set; }
+        public List<Homework> homeworks { get; set; }*/
    
     }
 }

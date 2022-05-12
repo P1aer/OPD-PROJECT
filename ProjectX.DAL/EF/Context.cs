@@ -8,7 +8,7 @@ using ProjectX.DAL.Entities;
 
 namespace ProjectX.DAL.EF
 {
-    internal class Context : DbContext
+    public class Context : DbContext
     {
         public DbSet<Homework> Homeworks { get; set; }
         public DbSet<Lecture> Lectures { get; set; }

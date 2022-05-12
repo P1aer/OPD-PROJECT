@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ProjectX.DAL.Repositories
 {
-    internal class TeacherRepository : IRepository<Teacher>
+    public class TeacherRepository : IRepository<Teacher>
     {
         private Context db;
 

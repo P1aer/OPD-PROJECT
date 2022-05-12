@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjectX.DAL.Entities
 {
-    internal class Homework
+    public class Homework
     {
         public int ID { get; set; }
 
-        public ushort? Grade { get; set; }
+/*        public ushort? Grade { get; set; }*/
 
         public string Task { get; set; }
-        public int StudentID { get; set; }
+/*        public int StudentID { get; set; }
         public Student Student { get; set; }
 
         public int LectureID { get; set; }
-        public Lecture Lecture { get; set; }
+        public Lecture Lecture { get; set; }*/
     }
 }

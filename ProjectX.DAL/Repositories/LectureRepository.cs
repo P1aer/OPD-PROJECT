@@ -10,7 +10,7 @@ using ProjectX.DAL.Interfaces;
 
 namespace ProjectX.DAL.Repositories
 {
-    internal class LectureRepository : IRepository<Lecture>
+    public class LectureRepository : IRepository<Lecture>
     {
         private Context db;
 
