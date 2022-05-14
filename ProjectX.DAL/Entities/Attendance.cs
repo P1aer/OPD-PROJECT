@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjectX.DAL.Entities
 {
-    public class Homework
+    public class Attendance
     {
-        public int ID { get; set; }
-        public string Task { get; set; }
+        public int StudentId { get; set; }
+        public Student Student { get; set; }
+
         public int LectureId { get; set; }
         public Lecture Lecture { get; set; }
-        public List<Student> Students { get; set; } = new List<Student>();
-        public List<Grade> Grades { get; set; } = new List<Grade>();
+
+        public bool onLection { get; set; }       // был на лекции
     }
 }
