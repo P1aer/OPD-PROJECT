@@ -31,6 +31,7 @@ namespace ProjectX.Logic.Service
             {
                 ID = teacher.ID,
                 Name = teacher.Name,
+                Email = teacher.Email,
                 MidName = teacher.MidName,
                 SurName = teacher.SurName,
             };
@@ -43,6 +44,7 @@ namespace ProjectX.Logic.Service
             {
                 ID = teacher.ID,
                 Name = teacher.Name,
+                Email= teacher.Email,
                 MidName = teacher.MidName,
                 SurName = teacher.SurName,
             };

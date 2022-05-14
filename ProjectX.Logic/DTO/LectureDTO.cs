@@ -10,10 +10,12 @@ namespace ProjectX.Logic.DTO
     public class LectureDTO
     {
         public int ID { get; set; }
+        public string Name { get; set; }
 
         public int TeacherID { get; set; }
-        public Dictionary<Student, bool> attendance { get; set; }
+        public DateTime Date { get; set; }
+/*        public Dictionary<Student, bool> attendance { get; set; }
 
-        public List<Homework> homeworks { get; set; }
+        public List<Homework> homeworks { get; set; }*/
     }
 }
