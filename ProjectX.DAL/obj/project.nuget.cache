@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "janBYi9W3h0jV79DGkIZgcX/lRcKA21m5saCvMw74ZCi107g5UBmS0MRT1MYRL8PUsxQhH7ZXw4Ds5Pq/wav6g==",
+  "dgSpecHash": "iJ5UIzD2TMcHSfl8sUJyxtB1Ow6162eZWEcrFPCRJBx6V50XPvng/OTKtjT1z+fE2TxLqR8VP8W02pCmS0tMrg==",
   "success": true,
-  "projectFilePath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj",
+  "projectFilePath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.DAL\\ProjectX.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79119\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\79119\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

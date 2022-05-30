@@ -10,3 +10,15 @@ D:\Загрузки\Штуки для учебы\С# технологии\Projec
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.dll
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX.DAL\obj\Debug\net6.0\ref\ProjectX.DAL.dll
 D:\Загрузки\Штуки для учебы\С# технологии\ProjectX\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.pdb
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\bin\Debug\net6.0\ProjectX.DAL.deps.json
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\bin\Debug\net6.0\ProjectX.DAL.dll
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\bin\Debug\net6.0\ref\ProjectX.DAL.dll
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\bin\Debug\net6.0\ProjectX.DAL.pdb
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.csproj.AssemblyReference.cache
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.AssemblyInfoInputs.cache
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.AssemblyInfo.cs
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.csproj.CoreCompileInputs.cache
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.dll
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ref\ProjectX.DAL.dll
+D:\Загрузки\Штуки для учебы\С# технологии\Project2\ProjectX.DAL\obj\Debug\net6.0\ProjectX.DAL.pdb

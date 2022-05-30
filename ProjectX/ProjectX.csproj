@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectX.Logic\ProjectX.Logic.csproj" />
+  </ItemGroup>
+
 </Project>

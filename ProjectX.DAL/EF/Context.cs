@@ -35,6 +35,10 @@ namespace ProjectX.DAL.EF
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Homework>()
+                .HasOne(a => a.Lecture)
+                .WithOne(a => a.Homework)
+                .HasForeignKey<Lecture>(c => c.HomeworkId);
             // многие ко многим студент - домашка + оценка
             modelBuilder.Entity<Homework>()
                 .HasMany(h => h.Students)
@@ -52,21 +56,22 @@ namespace ProjectX.DAL.EF
                     j.ToTable("Grades");
                 });
             // многие ко многим студент лекции + посещение
-             modelBuilder.Entity<Lecture>()
-                .HasMany(h => h.Students)
-                .WithMany(s => s.Lectures).
-                UsingEntity<Attendance>(
-                j => j.HasOne(pt => pt.Student)
-                .WithMany(t => t.Attendances)
-                .HasForeignKey(pt => pt.StudentId),
-                j => j.HasOne(pt => pt.Lecture)
-                .WithMany(p => p.Attendances)
-                .HasForeignKey(pt => pt.LectureId),
-                j =>
-                {
-                    j.HasKey(t => new { t.LectureId, t.StudentId });
-                    j.ToTable("Attendances");
-                });
+            modelBuilder.Entity<Lecture>()
+               .HasMany(h => h.Students)
+               .WithMany(s => s.Lectures).
+               UsingEntity<Attendance>(
+               j => j.HasOne(pt => pt.Student)
+               .WithMany(t => t.Attendances)
+               .HasForeignKey(pt => pt.StudentId),
+               j => j.HasOne(pt => pt.Lecture)
+               .WithMany(p => p.Attendances)
+               .HasForeignKey(pt => pt.LectureId),
+               j =>
+               {
+                   j.HasKey(t => new { t.LectureId, t.StudentId });
+                   j.ToTable("Attendances");
+               });
+
         }
     }
 }

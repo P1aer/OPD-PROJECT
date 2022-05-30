@@ -1828,11 +1828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.Logic\\ProjectX.Logic.csproj",
+      "projectUniqueName": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.Logic\\ProjectX.Logic.csproj",
       "projectName": "ProjectX.Logic",
-      "projectPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.Logic\\ProjectX.Logic.csproj",
+      "projectPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.Logic\\ProjectX.Logic.csproj",
       "packagesPath": "C:\\Users\\79119\\.nuget\\packages\\",
-      "outputPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.Logic\\obj\\",
+      "outputPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\79119\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1849,8 +1849,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj": {
-              "projectPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\ProjectX\\ProjectX.DAL\\ProjectX.DAL.csproj"
+            "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.DAL\\ProjectX.DAL.csproj": {
+              "projectPath": "D:\\Загрузки\\Штуки для учебы\\С# технологии\\Project2\\ProjectX.DAL\\ProjectX.DAL.csproj"
             }
           }
         }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjectX.Models;
 using System.Diagnostics;
+using ProjectX.DAL.EF;
 
 namespace ProjectX.Controllers
 {
@@ -8,13 +9,38 @@ namespace ProjectX.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private Context db;
+        public HomeController(Context sers)
         {
-            _logger = logger;
+            db = sers;
         }
 
         public IActionResult Index()
         {
+            Console.WriteLine();
+            Console.WriteLine("Teachers");
+            foreach(var a in db.Teachers)
+            {
+                Console.WriteLine(a.Name + " " + a.SurName + " " + a.Email);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Students");
+            foreach (var a in db.Students)
+            {
+                Console.WriteLine(a.Name + " " + a.SurName + " " + a.Email);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Homeworks");
+            foreach (var a in db.Homeworks)
+            {
+                Console.WriteLine(a.ID + " " + a.LectureId + " " + a.Task);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Lectures");
+            foreach (var a in db.Lectures)
+            {
+                Console.WriteLine(a.ID + " " + a.Name + " " +a.HomeworkId );
+            }
             return View();
         }
 
